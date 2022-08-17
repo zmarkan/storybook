@@ -113,6 +113,7 @@
     "@storybook/blocks": { "implicitDependencies": [] },
 
     "@storybook/html-webpack5": { "implicitDependencies": [] },
+    "@storybook/nextjs": { "implicitDependencies": [] },
     "@storybook/preact-webpack5": { "implicitDependencies": [] },
     "@storybook/react-webpack5": { "implicitDependencies": [] },
     "@storybook/server-webpack5": { "implicitDependencies": [] },
