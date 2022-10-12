@@ -3,9 +3,8 @@ import * as React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { action as originalAction } from '@storybook/addon-actions';
 import { StoryContext } from '@storybook/addons';
-import { RouterContext } from '../resolved-router-context';
-// this will be aliased by webpack at runtime (this is just for typing)
-import Router from './resolved-router';
+import { RouterContext } from 'next/dist/shared/lib/router-context';
+import Router from 'next/router';
 
 let action: typeof originalAction;
 
